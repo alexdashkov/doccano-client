@@ -553,7 +553,7 @@ class DoccanoClient(_Router):
             'format': file_format
         }
         return self.post(
-            'v1/projects/{project_id}/docs/upload'.format(
+            'v1/projects/{project_id}/upload'.format(
                 project_id=project_id
             ),
             files=files,
